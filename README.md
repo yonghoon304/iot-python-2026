@@ -176,7 +176,7 @@ IoT 개발자 파이썬 리포지토리
 
 ### 파이썬 기본 학습
 
-11. 라이브러리 사용 계속
+11. 라이브러리 사용 계속 [소스](./day03/ex01.out_package.py)
     - 타언어의 경우 웹 검색,다운로드,개발위치 설치나 복사
     - CPU 아키텍처에 따라 32bit(x86),64bit 마다 설치방법 상이
     - 파이썬은 자신만의 패키기 관리자 pip 사용
@@ -190,11 +190,13 @@ IoT 개발자 파이썬 리포지토리
 
     > pip list
     ```
-12. 기타 자료구조
+    - CSV  라이브러리 [소스](./day03/ex02.csv_package.py)
+
+12. 기타 자료구조 [소스](./day03/ex03.datastruct.py)
     - 리스트 외 튜플,딕셔너리,셋 등 ...
     - 각 자료구조 형태를 구분
 
-13. main
+13. main [소스](./day03/ex04.main.py)
     - 파이썬은 main함수가 필요없음
     - 여러 파일 중 시작점을 지칭할 때는 사용
     - `__name__` 특수변수를 사용
@@ -227,7 +229,7 @@ IoT 개발자 파이썬 리포지토리
     - 가상환경은 github에 올리지 말 것
     - .gitignore에 가상환경 폴더명 추가할 것, 폴더명\
 
-14. 객체지향
+14. 객체지향 [소스1](./day03/ex05.oop.py), [소스2](./day03/ex06.opp.py),[소스3](./day03/ex07.opp.py)
     - C++의 객체지향,클래스와 동일
     - 접근제한자가 없음(public,privated,protected)
     - C++과 달리 new 안 씀, 변수 선언에 제약사항이 많이 없음
@@ -236,7 +238,7 @@ IoT 개발자 파이썬 리포지토리
     - 파이썬의 철학 : `막지 말고 알아서 지켜라`
     - public,private(__로 변수 선언),protected(__변수 선언) C++처럼 접근제한자를 많이 사용안함
 
-15. 예외처리
+15. 예외처리 [소스](./day03/ex09.exception.py)
     - 비정상적인 종류를 막는 기능
     - try -except - finally 로 구분지어서 사용(else는 잘 사용안함)
     - except를 여러 번 쓸 수 있으나,`except Excetion as e` 하나로 동일해도 무방
@@ -262,7 +264,7 @@ IoT 개발자 파이썬 리포지토리
     - 저장된 json 파일을 사용 또는 openAPI 네트워크로 전달된 데이터를 사용
 
 ### 주피터 노트북
-- 주피터 노트북
+- 주피터 노트북 [소스](./day03/ex20_jupyter_start.ipynb)
     - 파이썬을 좀 더 인터렉티브하게 사용하고자 하는 취지
     - 논문처럼 글과 소스 실행을 병행
     - Project Jupyter 
@@ -285,3 +287,31 @@ IoT 개발자 파이썬 리포지토리
     - ctrl enter : 마크다운쉘은 빠져나오기,코드쉘을 실행
     - l : 쉘 선택모드에서 라인번호 표시
     - dd : 쉘 선택모드에서 쉘 삭제
+
+- 사용처
+    - 웹상에서 동작하므로 많은 서비스를 지원, 로컬 컴퓨터보다 속도는 느림
+    - github codespace[주소](https://github.com/features/codespaces) - 기존 리포지토리와 연결 지원(무료일 경우 한달 140시간)
+    - google colab[주소](https://colab.research.google.com/) - 구글에서 지원하는 노트북서비스, 90분 연결무료, 기능 제약적
+    
+### 데이터 분석 기초
+- [소스](./day03/ex21.dataprocess.ipynb)
+- 분석용 기초이롬
+    - --리스트,튜플,딕셔너리--
+    - 리스트 컴프리핸션
+    - 파일 입출력
+    - NumPy
+   
+
+## 4일차 
+
+### 데이터 분석 기초
+- [소스](./day03/ex21.dataprocess.ipynb)
+- 분석용 기초이롬
+    - NumPy
+    - pandas
+    - Matplotlib
+    - seaborn
+    - folium
+    - wordcloud
+    - 기초 통계
+    - 데이터전처리
