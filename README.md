@@ -390,7 +390,7 @@ IoT 개발자 파이썬 리포지토리
 - OpenCV Python -[노트북](./day05/ex01_openCV_start.ipynb)
     - OpenCV를 파이썬에 사용하도록 만든 래핑 라이브러리
     - 코드 간결, AI/딥러닝과 연결 쉬움,데이터분석 통합가능
-    - C++ OenpCV보다 속도가 느림 -> PyTorch로 속도 개선
+    - C++ OpenCV보다 속도가 느림 -> PyTorch로 속도 개선
 
 - VLC
     - 영상처리 쪽 코덱이 필요
@@ -405,4 +405,4 @@ IoT 개발자 파이썬 리포지토리
 ## 6일차
 
 ### 실시간 웹캠 처리
-
+ [노트북](./day06/ex01_opencv.ipynb)
